@@ -1,0 +1,26 @@
+{
+  "name": "kickstart--sass",
+  "version": "1.0.0",
+  "description": "Starting sass projects with a sassy start.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andysolomon/kickstart--sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andysolomon/kickstart--sass/issues"
+  },
+  "homepage": "https://github.com/andysolomon/kickstart--sass",
+  "dependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-sass": "~0.7.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}

@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ['./**/*.{sass,scss}'],
-        tasks: 'scss'
+        tasks: 'sass'
       }
     },
 
@@ -14,10 +14,10 @@ module.exports = function(grunt) {
       build: {
         files : [
           {
-            src : ['**/*.{sass,scss}', '!**/_*.{sass,scss}'],
+            src : ['kickstart.{sass,scss}'],
             cwd : './',
             dest : 'dist',
-            ext : '.css',
+            ext : '.scss',
             expand : true
           }
         ],
@@ -31,6 +31,6 @@ module.exports = function(grunt) {
 
   // Default task
   grunt.registerTask('default', ['sass']);
-  grunt.registerTask('scss', ['sass']);
-  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 };
