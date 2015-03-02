@@ -1,0 +1,11 @@
+{
+  "name": "_meyer-reset",
+  "_cacheHeaders": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "main": "index.scss",
+  "_source": "https://github.com/adamstac/meyer-reset/blob/master/stylesheets/_meyer-reset.scss",
+  "_target": "*",
+  "_originalSource": "https://github.com/adamstac/meyer-reset/blob/master/stylesheets/_meyer-reset.scss",
+  "_direct": true
+}
