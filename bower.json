@@ -1,0 +1,20 @@
+{
+  "name": "kickstart--sass",
+  "version": "0.0.1",
+  "authors": [
+    "Andrew Solomon <andrewsolomon.edu@gmail.com>"
+  ],
+  "description": "Base styling to kickstart your sass project.",
+  "main": "kickstart.sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "typecsset": "~0.3.0"
+  }
+}
